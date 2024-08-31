@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+#container {
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	height: 100vh;
+	/* margin: 0 auto; */
+}
+header,
+footer {
+	padding: 10px 20px;
+	text-align: center;
+}
+
+.currency-converter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* flex-direction: column; */
+	gap: 20px;
+	border: 1px solid;
+	width: 400px;
+	height: 600px;
+	margin: 0 auto;
+}
+
+.inputfields {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	gap: 30px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<main id="container">
+			<header>
+				<h2>CURRENCY CONVERTER</h2>
+			</header>
+			<article class="currency-converter">
+				<section class="inputfields">
+					<label for="from">From</label>
+					<select name="fromCurrency" id="fromCurrency"></select>
+					<label for="To">To</label>
+					<select name="toCurrency" id="toCurrency"></select>
+					<label for="amount">Amount</label>
+					<input
+						type="number"
+						name="amount"
+						id="amount"
+						value="1"
+						placeholder="enter the amount"
+					/>
+					<label for="result">Result</label>
+					<input type="text" name="result" id="result" readonly />
+				</section>
+				<section class="button">
+					<button id="convert">Convert</button>
+				</section>
+			</article>
+			<footer>
+				<h4>Created by INDRA</h4>
+			</footer>
+		</main>
+		<script src="main.js"></script>
+	</body>
+</html>
